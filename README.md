@@ -100,7 +100,7 @@ npm start
 
 ## 🔭 Future Features 
 
-  * Calculator UI - A simple calculator interface
+  * Calculator Logic - Add ligic to the calculator interface
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -8,7 +8,7 @@ body {
   background: rgb(215, 215, 224);
 }
 
-.calculator__container {
+.container {
   display: grid;
   grid-template-columns: repeat(4, 6rem);
   grid-template-rows: minmax(5rem, auto) repeat(5, 5rem);
@@ -16,15 +16,15 @@ body {
   justify-content: center;
 }
 
-.calculator__container button {
+.container button {
   outline: none;
   cursor: pointer;
   border: 1px solid rgb(209, 209, 202);
   font-size: 1rem;
 }
 
-.calculator__container button:hover,
-.calculator__container button:focus {
+.container button:hover,
+.container button:focus {
   background-color: gray;
 }
 
@@ -32,7 +32,7 @@ body {
   grid-column: span 2;
 }
 
-.calculator__output {
+.output {
   grid-column: 1/-1;
   background-color: gray;
   color: #fff;
@@ -41,6 +41,6 @@ body {
   text-align: end;
 }
 
-.calculator__operand {
+.operand {
   background: rgb(250, 120, 34);
 }
