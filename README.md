@@ -100,7 +100,7 @@ npm start
 
 ## 🔭 Future Features 
 
-  * Calculator UI - A simple calculator interface
+  * Single Page App - Add routes to make a SPA
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
