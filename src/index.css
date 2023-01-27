@@ -6,13 +6,13 @@
 
 body {
   background: rgb(215, 215, 224);
+  margin: 0 2rem;
 }
 
 .container {
   display: grid;
   grid-template-columns: repeat(4, 6rem);
   grid-template-rows: minmax(5rem, auto) repeat(5, 5rem);
-  margin-top: 4rem;
   justify-content: center;
 }
 
@@ -43,4 +43,22 @@ body {
 
 .operand {
   background: rgb(250, 120, 34);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 4rem;
+  gap: 10rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 1rem 4rem 1rem;
+}
+
+.navLink {
+  border-right: 0.1rem solid black;
+  padding: 0 0.9rem;
 }
